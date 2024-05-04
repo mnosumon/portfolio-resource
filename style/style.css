@@ -17,6 +17,9 @@ body{
 ul, ol{
     list-style-type: none;
 }
+header{
+    background-color: #FFF8F3;
+}
 
 /* Nav start */
 .logo{
@@ -53,6 +56,35 @@ nav{
     border: none;
 }
 /* Nav end */
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px 0px 230px;
+    background-image: url("../image/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 .profilePic{
-    
+    width: 500px;
+}
+.profilePic img{
+    width: 100%;
+    display: block;
+}
+.banner_details h4{
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--subHeading-color);
+}
+.banner_details h1{
+    font-weight: 700;
+    font-size: 85px;
+    color: var(--heading-color);
+}
+.banner_details p{
+    font-size: 18px;
+    color: var(--paragrape-color);
+    margin: 20px 0 30px;
+    max-width: 585px;
 }
