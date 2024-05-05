@@ -55,7 +55,18 @@ nav{
     font-weight: 700;
     border: none;
 }
+.btn_hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    padding: 18px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid var(--primary-color); 
+}
 /* Nav end */
+
+/* Banner Start */
 #banner{
     display: flex;
     align-items: center;
@@ -87,4 +98,14 @@ nav{
     color: var(--paragrape-color);
     margin: 20px 0 30px;
     max-width: 585px;
+}
+.banner_contact{
+    display: flex;
+    gap: 30px;
+}
+
+/* Banner end */
+/* Main Start */
+#main{
+    max-width: 1140px;
 }
