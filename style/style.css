@@ -224,3 +224,24 @@ nav{
     margin-top: 30px;
 }
 /* Resume End */
+
+footer{
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 117px;
+}
+footer .section_heading{
+    text-align: left;
+}
+.contact_icons{
+    display: flex;
+    gap: 30px;
+}
+.contact_icons i{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.lets_contact .p16px{
+    margin: 30px 0;
+}
