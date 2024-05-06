@@ -27,6 +27,9 @@ ul, ol{
     color: var(--paragrape-color);
     line-height: 28px;
 }
+.horizontal_rule{
+    color: red;
+}
 .section_heading{
     text-align: center;
     font-size: 35px;
@@ -186,3 +189,34 @@ nav{
 }
 
 /* What I do Ehd */
+
+/* Resume Start */
+#resume{
+    margin: 130px 0;
+}
+.resume{
+    display: flex;
+    gap: 24px;
+    margin-top: 113px;
+}
+.education_heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--subHeading-color);
+}
+.education_part{
+    margin: 30px 0;
+}
+.education_title{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--subHeading-color);
+}
+.education_institute{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--paragrape-color);
+}
+.education_desc{
+    max-width: 511x;
+}
