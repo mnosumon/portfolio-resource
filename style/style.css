@@ -27,7 +27,9 @@ ul, ol{
     color: var(--paragrape-color);
     line-height: 28px;
 }
-
+.download_icon, .fa-phone{
+    margin-right: 15px;
+}
 .section_heading{
     text-align: center;
     font-size: 35px;
@@ -91,9 +93,9 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 50px 40px 0px 230px;
-    background-image: url("../image/header_bg.png");
+    background-image: url("../image/header_bg.png"), url('../image/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left top;
 }
 .profilePic{
     width: 500px;
