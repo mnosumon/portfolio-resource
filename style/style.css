@@ -27,9 +27,7 @@ ul, ol{
     color: var(--paragrape-color);
     line-height: 28px;
 }
-.horizontal_rule{
-    color: red;
-}
+
 .section_heading{
     text-align: center;
     font-size: 35px;
@@ -219,4 +217,9 @@ nav{
 }
 .education_desc{
     max-width: 511x;
+}
+
+.resume_download{
+    text-align: center;
+    margin-top: 30px;
 }
